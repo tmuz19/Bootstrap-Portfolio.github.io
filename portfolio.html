@@ -1,64 +1,76 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Talha Muzaffar</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
 </head>
 
+<style>
+    body {
+    margin: 0;
+    background: url(https://images.homedepot-static.com/productImages/aa5fa4af-8623-49e3-b42f-57ebe58d58ac/svn/beyond-basics-wallpaper-420-87072-64_1000.jpg);
+    background-size: 1440px 800px;
+    }
+</style>
+
 <body>
+    <nav class="navbar navbar-expand-lg rounded-0 navbar-light bg-light">
+        <h1 class="text-white bg-info p-md-2 ml-md-5">Talha Muzaffar</h1>
+        <ul class="ml-auto">
+            <li class="d-inline">
+                <a class="border-right pr-md-3 mr-md-2 text-secondary" href="index.html">About</a>
+            </li>
+            <li class="d-inline">
+                <a class="border-right pr-md-3 mr-md-2 text-secondary" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="d-inline mr-md-5">
+                <a class="text-secondary" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container bg-light rounded-0 col-md-7 ml-6 p-5 mt-4 mb-4">
+        <h1 class="col-md-11 border-bottom text-info ml-0">Portfolio</h1>
+        <div class="row">
+            <div class="img" class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
+                <img src="http://lorempixel.com/output/technics-q-c-300-250-1.jpg" style="width: 98%" alt="Word Guess">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Talha Muzaffar</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+                <h3 class="bg-info text-white text-center col-md-12" style="width: 98%">Word Guess</h3>
+            </div>
+            <div class="img" class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
+                <img src="http://lorempixel.com/output/technics-q-c-300-250-2.jpg" style="width: 98%" alt="RPG Game">
+
+                <h3 class="bg-info text-white text-center col-md-12" style="width: 98%">RPG Game</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="img" class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
+                <img src="http://lorempixel.com/output/technics-q-c-300-250-3.jpg" style="width: 98%" alt="Trivia Game">
+
+                <h3 class="bg-info text-white text-center col-md-12" style= "width: 98%">Trivia Game</h3>
+            </div>
+            <div class="img" class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
+                <img src="http://lorempixel.com/output/technics-q-c-300-250-4.jpg" style="width:98%" alt="Rutgers Info Widget">
+
+                <h3 class="bg-info text-center text-white col-md-12" style="width: 98%">Rutgers Info Widget</h3> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="img" class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
+                <img src="http://lorempixel.com/output/technics-q-c-300-250-5.jpg" style="width:98%" alt="Rock Paper Scissors">
+
+                <h3 class="bg-info text-center text-white col-md-12" style="width: 98%">Rock Paper Scissors</h3>
+            </div>
+        </div>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
 </body>
+<footer>
+    <h1 class="fixed-bottom-0 bg-light text-info text-center"> &copy; Copyright </h1>
+</footer>
 
 </html>
